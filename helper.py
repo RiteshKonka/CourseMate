@@ -56,8 +56,7 @@ def get_qa_chain():
     return chain
 
 if __name__ == "__main__":
-    create_vector_db()
-    # chain = get_qa_chain()
-    # print(chain("Do you have javascript course?"))
+    chain = get_qa_chain()
+    print(chain("Do you have javascript course?"))
 
 
